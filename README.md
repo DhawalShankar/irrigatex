@@ -42,12 +42,12 @@ This repository includes a **working Proof of Concept** demonstrating the comple
 ![IrrigateX Proof of Concept](./PoC.jpeg)
 
 
-## **System Logic**
-
+## System Logic
 1. Read soil moisture level
 2. Check rain sensor status
-3. If **no rain** and **soil is dry** → Pump ON
-4. Else → Pump OFF
+3. If soil moisture is **below threshold** and **no rain is detected** → Pump ON
+4. If soil moisture reaches the **defined threshold** → Pump OFF
+
 
 ---
 
